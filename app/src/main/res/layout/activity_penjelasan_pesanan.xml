@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="glory.manajerpenjualan.PenjelasanPesananActivity"
+    android:background="@drawable/back2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporan Pesanan"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/txtjudulKatal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:text="ID "
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:id="@+id/txtjudulID"
+        android:layout_below="@+id/txtjudulKatal"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="Id Outlet"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:id="@+id/txtpenjelID"
+        android:layout_below="@+id/txtjudulID"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:text="Nama "
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:id="@+id/txtjudulNama"
+        android:layout_below="@+id/txtpenjelID"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="Nama outlet"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:id="@+id/txtpenjelNama"
+        android:layout_below="@+id/txtjudulNama"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:text="Alamat"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:id="@+id/txtjudulAlamat"
+        android:layout_below="@+id/txtpenjelNama"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="alamat Outlet"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:id="@+id/txtpenjelAlamat"
+        android:layout_below="@+id/txtjudulAlamat"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:text="No Telpon"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:id="@+id/txtjudulTelpon"
+        android:layout_below="@+id/txtpenjelAlamat"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="No Telpon outlet"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:id="@+id/txtpenjelTelpon"
+        android:layout_below="@+id/txtjudulTelpon"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:text="Tanggal"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:id="@+id/txtjudulTanggal"
+        android:layout_below="@+id/txtpenjelTelpon"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="Tanggal outlet"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:id="@+id/txtpenjelTanggal"
+        android:layout_below="@+id/txtjudulTanggal"
+        android:textStyle="italic"
+        />
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJumlahTotal"
+        >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJumlahTotal"
+        android:layout_below="@+id/txtpenjelTanggal"
+        android:text="Total"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+
+</RelativeLayout>

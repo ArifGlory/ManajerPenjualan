@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "405276799518",
+    "firebase_url": "https://katalog-penjualan.firebaseio.com",
+    "project_id": "katalog-penjualan",
+    "storage_bucket": "katalog-penjualan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405276799518:android:63d175905b0e93bd",
+        "android_client_info": {
+          "package_name": "glory.manajerpenjualan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405276799518-8fbgg9nkvcak4ccplaovph192mfsgpjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "glory.manajerpenjualan",
+            "certificate_hash": "6DEE4C938E63728CEC14DA4A716E8BEBA5630722"
+          }
+        },
+        {
+          "client_id": "405276799518-llgdfrb7d8n006o5ubo1si60hh4ul6h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF20j18oGW_Qjb9X-I0W0G-yQ7Z7lW1xA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405276799518-llgdfrb7d8n006o5ubo1si60hh4ul6h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
